@@ -8,7 +8,7 @@ class ApiProvider {
   Client client = Client();
 
   //TODO: Add your api key here
-  static final _apiKey = '24d18ef569e3997bf2779d05440d3c6e';
+  static final _apiKey = 'db009203b97d7249c2af8a486e21b243';
   static final String _baseUrl = 'http://api.themoviedb.org/3/movie';
 
   Future<Movie> getMovieList() async {
